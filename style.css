@@ -1,0 +1,260 @@
+/*
+Setting up Fonts
+*/
+
+@font-face {
+  font-family: 'Glacial Bold';
+  src: url('Assets/fonts/GlacialIndifference-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins ExtraBold';
+  src: url('Assets/fonts/Poppins-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Muli';
+  src: url('Assets/fonts/Muli.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto Light';
+  src: url('Assets/fonts/Roboto-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Muli Regular';
+  src: url('Assets/fonts/Muli-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat Bold';
+  src: url('Assets/fonts/Montserrat-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Muli Light';
+  src: url('Assets/fonts/Muli-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat Regular';
+  src: url('Assets/fonts/Montserrat-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Glacial Regular';
+  src: url('Assets/fonts/GlacialIndifference-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins SemiBold';
+  src: url('Assets/fonts/Poppins-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto Regular';
+  src: url('Assets/fonts/Roboto-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #f2f2f2;
+}
+
+p {
+  padding: 0px;
+  margin: 0px;
+}
+
+/*
+Section 1
+*/
+
+.header-container {
+  border: 1px solid #ccc;
+  background: #dddddd 0% 0% no-repeat padding-box;
+  width: 117.8em;
+  height: 60.75em;
+}
+
+.logo {
+  margin-top: 3em;
+  margin-left: 3.25em;
+  line-height: 2em;
+}
+
+.logo p:nth-child(1) {
+  font-size: 3em;
+  font-family: 'Poppins ExtraBold';
+  display: flex;
+  position: relative;
+}
+
+.logo p:nth-child(1)::after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #0081ff;
+  margin-top: 0.55em;
+}
+
+.logo p:nth-child(2) {
+  font-size: 1em;
+  color: #b3b3b3;
+  font-family: 'Montserrat Regular';
+}
+
+.counter-about-me {
+  text-align: end;
+  line-height: 0.2em;
+  margin-top: 9em;
+  margin-right: 7em;
+}
+
+.counter-about-me p:nth-child(1) {
+  font-size: 8.5em;
+  color: #1c1c1c;
+  font-family: 'Poppins ExtraBold';
+  margin-right: 0.15em;
+}
+
+.counter-about-me p:nth-child(2) {
+  font-size: 2.5em;
+  font-family: 'Poppins ExtraBold';
+  color: #e93656;
+}
+
+.left-container,
+.right-container {
+  width: 50%;
+  box-sizing: border-box;
+  float: left;
+  padding: 10px;
+}
+
+.header-image {
+  width: 64.5%;
+  height: auto;
+  object-fit: cover;
+  margin-top: 1em;
+  margin-left: 16em;
+}
+
+.style-for-image-1 {
+  width: 64.5%;
+  height: auto;
+  object-fit: cover;
+  margin-top: 1em;
+  margin-left: 16em;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+}
+
+.style-for-image-2 {
+  width: 80.5%;
+  height: auto;
+  object-fit: cover;
+  margin-left: 11em;
+  margin-top: -15em;
+}
+
+.style-for-image-3 {
+  width: 100%;
+  height: auto;
+  margin-left: 2em;
+  margin-top: 10em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+.about-me {
+  margin-top: 9em;
+  margin-left: 3.25em;
+  line-height: 6em;
+}
+
+.about-me p:nth-child(1) {
+  font-size: 3em;
+  font-family: 'Glacial Regular';
+  color: #212121;
+}
+
+.about-me p:nth-child(2) {
+  font-size: 4em;
+  color: #e93656;
+  font-family: 'Glacial Bold';
+}
+
+.about-me p:nth-child(3) {
+  font-size: 3em;
+  color: #212121;
+  font-family: 'Glacial Regular';
+}
+
+.social-icons {
+  margin-top: 1em;
+  margin-left: 3em;
+}
+
+.social-icons svg {
+  margin-right: 7em;
+  width: 3em;
+  height: 3em;
+}
+
+.client-satisfaction-container {
+  font-family: 'Montserrat Bold';
+  line-height: 7em;
+  font-size: 0.5em;
+  font-weight: bold;
+  margin-left: 70em;
+  margin-top: 23em;
+}
+
+.satisfaction-number {
+  color: #e93656;
+}
+
+.red-line {
+  width: 35em;
+  height: 6px;
+  background: #e93656 0% 0% no-repeat padding-box;
+}
+
+/*
+Section 2
+*/
