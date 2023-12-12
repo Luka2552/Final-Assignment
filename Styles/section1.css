@@ -1,0 +1,154 @@
+.header-container {
+  background: #dddddd 0% 0% no-repeat padding-box;
+  width: 117.8em;
+  height: 60.75em;
+}
+
+.logo {
+  margin-top: 3em;
+  margin-left: 3.25em;
+  line-height: 2em;
+}
+
+.logo p:nth-child(1) {
+  font-size: 3em;
+  font-family: 'Poppins ExtraBold';
+  display: flex;
+  position: relative;
+}
+
+.logo p:nth-child(1)::after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #0081ff;
+  margin-top: 0.55em;
+}
+
+.logo p:nth-child(2) {
+  font-size: 1em;
+  color: #b3b3b3;
+  font-family: 'Montserrat Regular';
+}
+
+.counter-about-me {
+  text-align: end;
+  line-height: 0.2em;
+  margin-top: 9em;
+  margin-right: 7em;
+}
+
+.counter-about-me p:nth-child(1) {
+  font-size: 8.5em;
+  color: #1c1c1c;
+  font-family: 'Poppins ExtraBold';
+  margin-right: 0.15em;
+}
+
+.counter-about-me p:nth-child(2) {
+  font-size: 2.5em;
+  font-family: 'Poppins ExtraBold';
+  color: #e93656;
+}
+
+.section1-left-container,
+.section1-right-container {
+  width: 50%;
+  box-sizing: border-box;
+  float: left;
+  padding: 10px;
+}
+
+.header-image {
+  width: 64.5%;
+  height: auto;
+  object-fit: cover;
+  margin-top: 1em;
+  margin-left: 16em;
+}
+
+.style-for-image-1 {
+  width: 64.5%;
+  height: auto;
+  object-fit: cover;
+  margin-top: 0.7em;
+  margin-left: 16em;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 1);
+}
+
+.style-for-image-2 {
+  max-width: 60.5%;
+  max-height: 53em;
+  height: auto;
+  object-fit: cover;
+  margin-left: 18em;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 1);
+}
+
+.style-for-image-3 {
+  width: 100%;
+  height: auto;
+  margin-left: 2em;
+  margin-top: 10em;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 1);
+}
+
+.about-me {
+  margin-top: 9em;
+  margin-left: 3.25em;
+  line-height: 6em;
+}
+
+.about-me p:nth-child(1) {
+  font-size: 3em;
+  font-family: 'Glacial Regular';
+  color: #212121;
+}
+.client-satisfaction {
+  font-size: 30em;
+  font-family: 'Glacial Regular';
+  color: #212121;
+}
+
+.about-me p:nth-child(2) {
+  font-size: 4em;
+  color: #e93656;
+  font-family: 'Glacial Bold';
+}
+
+.about-me p:nth-child(3) {
+  font-size: 3em;
+  color: #212121;
+  font-family: 'Glacial Regular';
+}
+
+.social-icons {
+  margin-top: 1em;
+  margin-left: 3em;
+}
+
+.social-icons svg {
+  margin-right: 7em;
+  width: 3em;
+  height: 3em;
+}
+
+.section1-client-satisfaction-container {
+  font-family: 'Montserrat Bold';
+  line-height: 7em;
+  font-size: 0.5em;
+  font-weight: bold;
+  margin-left: 70em;
+  margin-top: 23em;
+}
+
+.satisfaction-number {
+  color: #e93656;
+}
+
+.section1-red-line {
+  width: 35em;
+  height: 6px;
+  background: #e93656 0% 0% no-repeat padding-box;
+}

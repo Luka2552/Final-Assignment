@@ -1,0 +1,96 @@
+.section {
+  position: relative;
+  width: 100%;
+  height: 570px;
+  background: url('../Assets/Images/section_4_background.jpg') center/cover
+    no-repeat;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: 5rem;
+}
+
+.text-container {
+  text-align: right;
+  color: #ffffff;
+  font-family: 'Roboto Light';
+  width: 23rem;
+  letter-spacing: 0.45px;
+}
+.text {
+  text-align: left;
+}
+
+.profession {
+  letter-spacing: 0.52px;
+  color: #e93656;
+  font-family: 'Roboto Regular';
+  font-size: 0.8125rem;
+  margin-bottom: 0.5rem;
+}
+.name {
+  letter-spacing: 0.84px;
+  color: #ffffff;
+  font-family: 'Glacial Bold';
+  font-size: 1.75rem;
+  width: 10.9rem;
+}
+
+.round-border {
+  width: 10rem;
+  height: 10rem;
+  border: 2px dashed #ffffff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.svg-container1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  /* SVG styles go here */
+}
+
+.svg-container2 {
+  width: 3.437rem;
+  height: 2.62rem;
+  display: flex;
+  align-items: center;
+  margin-right: 7rem;
+  margin-bottom: 2rem;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.square-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.square {
+  width: 13px;
+  height: 13px;
+  border: 2px solid #ffffff; /* Initial white border */
+  margin-bottom: 1rem; /* Adjusted spacing */
+  cursor: pointer;
+  background: transparent; /* Make the inside transparent */
+}
+
+/* Style for the selected square */
+.square.selected {
+  background: #e93656;
+}
