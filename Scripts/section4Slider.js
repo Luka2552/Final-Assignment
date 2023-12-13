@@ -72,22 +72,24 @@ const slides = [
 let currentSlide = 0;
 
 function changeSlide(index) {
-  const squares = document.querySelectorAll('.square');
+  const squares = document.querySelectorAll('.section4-square');
   squares.forEach((square) => square.classList.remove('selected'));
 
   currentSlide = index - 1;
   updateContent();
 
   document
-    .querySelector('.square-container')
+    .querySelector('.section4-square-container')
     .children[currentSlide].classList.add('selected');
 }
 
 function updateContent() {
-  const textContainer = document.querySelector('.text-container');
-  const professionText = document.querySelector('.text .profession');
-  const nameText = document.querySelector('.text .name');
-  const svgContainer = document.querySelector('.svg-container1');
+  const textContainer = document.querySelector('.section4-text-container');
+  const professionText = document.querySelector(
+    '.section4-text .section4-profession'
+  );
+  const nameText = document.querySelector('.section4-text .section4-name');
+  const svgContainer = document.querySelector('.section4-svg-container1');
 
   textContainer.textContent = slides[currentSlide].text;
   professionText.textContent = slides[currentSlide].profession;

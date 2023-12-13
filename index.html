@@ -80,9 +80,15 @@
       type="font/woff2"
       crossorigin
     />
+    <link
+      rel="preload"
+      href="Assets/fonts/Jaapokki-Regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
 
     <link rel="stylesheet" href="Styles/style.css" />
-
     <title>Final Assignment</title>
   </head>
   <body>
@@ -654,14 +660,15 @@
         </div>
       </div>
     </section>
-    <div class="section">
-      <div class="flex-container">
-        <p class="text-container"></p>
-        <div class="round-border">
-          <div class="svg-container1"></div>
+    <!-- Section 4 -->
+    <section class="section4">
+      <div class="section4-flex-container">
+        <p class="section4-text-container"></p>
+        <div class="section4-round-border">
+          <div class="section4-svg-container1"></div>
         </div>
-        <div class="info-container">
-          <div class="svg-container2">
+        <div class="section4-info-container">
+          <div class="section4-svg-container2">
             <svg
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -686,21 +693,335 @@
               </g>
             </svg>
           </div>
-          <div class="text">
-            <p class="profession"></p>
-            <p class="name"></p>
+          <div class="section4-text">
+            <p class="section4-profession"></p>
+            <p class="section4-name"></p>
           </div>
         </div>
-        <div class="square-container">
-          <div class="square selected" onclick="changeSlide(1)"></div>
-          <div class="square" onclick="changeSlide(2)"></div>
-          <div class="square" onclick="changeSlide(3)"></div>
+        <div class="section4-square-container">
+          <div
+            class="section4-square section4-selected"
+            onclick="changeSlide(1)"
+          ></div>
+          <div class="section4-square" onclick="changeSlide(2)"></div>
+          <div class="section4-square" onclick="changeSlide(3)"></div>
         </div>
       </div>
-    </div>
+    </section>
+    <!--Section 5-->
+
+    <section class="section5">
+      <h2>Latest Projects</h2>
+      <div class="section5-row">
+        <div class="section5-left">
+          <div>
+            <p>All</p>
+            <p>Work Ideas</p>
+            <p>Mockup</p>
+            <p>PSD Design</p>
+            <p>Logo</p>
+            <p>Presentation</p>
+            <p>Icons</p>
+          </div>
+        </div>
+
+        <div class="section5-right">
+          <div class="section5-image">
+            <img src="Assets/Images/Collage1.avif" alt="Project Image 1" />
+
+            <div class="section5-circle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="12"
+                viewBox="0 0 14 12"
+              >
+                <path
+                  id="Forma_1_copy_10"
+                  data-name="Forma 1 copy 10"
+                  d="M1105,4100l-.98-.913c-3.64-3-6.02-5.021-6.02-7.5a3.673,3.673,0,0,1,3.85-3.588,4.306,4.306,0,0,0,6.3,0,3.673,3.673,0,0,1,3.85,3.588c0,2.478-2.38,4.5-6.02,7.5Z"
+                  transform="translate(-1098 -4087.997)"
+                  fill="#e93656"
+                />
+              </svg>
+            </div>
+            <div class="section5-text">
+              <p>9 MONTHS AGO</p>
+              <p>Work Ideas</p>
+            </div>
+          </div>
+
+          <div class="section5-image">
+            <img src="Assets/Images/Collage2.avif" alt="Project Image 2" />
+            <div class="section5-circle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="12"
+                viewBox="0 0 14 12"
+              >
+                <path
+                  id="Forma_1_copy_10"
+                  data-name="Forma 1 copy 10"
+                  d="M1105,4100l-.98-.913c-3.64-3-6.02-5.021-6.02-7.5a3.673,3.673,0,0,1,3.85-3.588,4.306,4.306,0,0,0,6.3,0,3.673,3.673,0,0,1,3.85,3.588c0,2.478-2.38,4.5-6.02,7.5Z"
+                  transform="translate(-1098 -4087.997)"
+                  fill="#e93656"
+                />
+              </svg>
+            </div>
+            <div class="section5-text">
+              <p>9 MONTHS AGO</p>
+              <p class="section5-mockup-design">3D Mockup Design</p>
+            </div>
+          </div>
+          <div class="section5-image">
+            <img src="Assets/Images/Collage3.avif" alt="Project Image 3" />
+            <div class="section5-circle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="12"
+                viewBox="0 0 14 12"
+              >
+                <path
+                  id="Forma_1_copy_10"
+                  data-name="Forma 1 copy 10"
+                  d="M1105,4100l-.98-.913c-3.64-3-6.02-5.021-6.02-7.5a3.673,3.673,0,0,1,3.85-3.588,4.306,4.306,0,0,0,6.3,0,3.673,3.673,0,0,1,3.85,3.588c0,2.478-2.38,4.5-6.02,7.5Z"
+                  transform="translate(-1098 -4087.997)"
+                  fill="#e93656"
+                />
+              </svg>
+            </div>
+            <div class="section5-text">
+              <p>9 MONTHS AGO</p>
+              <p>PSD Design</p>
+            </div>
+          </div>
+          <div class="section5-image">
+            <img src="Assets/Images/Collage4.avif" alt="Project Image 4" />
+            <div class="section5-circle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="12"
+                viewBox="0 0 14 12"
+              >
+                <path
+                  id="Forma_1_copy_10"
+                  data-name="Forma 1 copy 10"
+                  d="M1105,4100l-.98-.913c-3.64-3-6.02-5.021-6.02-7.5a3.673,3.673,0,0,1,3.85-3.588,4.306,4.306,0,0,0,6.3,0,3.673,3.673,0,0,1,3.85,3.588c0,2.478-2.38,4.5-6.02,7.5Z"
+                  transform="translate(-1098 -4087.997)"
+                  fill="#e93656"
+                />
+              </svg>
+            </div>
+            <div class="section5-text">
+              <p>9 MONTHS AGO</p>
+              <p>Logo</p>
+            </div>
+          </div>
+          <div class="section5-image">
+            <img src="Assets/Images/Collage5.avif" alt="Project Image 5" />
+            <div class="section5-circle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="12"
+                viewBox="0 0 14 12"
+              >
+                <path
+                  id="Forma_1_copy_10"
+                  data-name="Forma 1 copy 10"
+                  d="M1105,4100l-.98-.913c-3.64-3-6.02-5.021-6.02-7.5a3.673,3.673,0,0,1,3.85-3.588,4.306,4.306,0,0,0,6.3,0,3.673,3.673,0,0,1,3.85,3.588c0,2.478-2.38,4.5-6.02,7.5Z"
+                  transform="translate(-1098 -4087.997)"
+                  fill="#e93656"
+                />
+              </svg>
+            </div>
+            <div class="section5-text">
+              <p>9 MONTHS AGO</p>
+              <p>Presentation</p>
+            </div>
+          </div>
+          <div class="section5-image">
+            <img src="Assets/Images/Collage6.avif" alt="Project Image 6" />
+            <div class="section5-circle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="12"
+                viewBox="0 0 14 12"
+              >
+                <path
+                  id="Forma_1_copy_10"
+                  data-name="Forma 1 copy 10"
+                  d="M1105,4100l-.98-.913c-3.64-3-6.02-5.021-6.02-7.5a3.673,3.673,0,0,1,3.85-3.588,4.306,4.306,0,0,0,6.3,0,3.673,3.673,0,0,1,3.85,3.588c0,2.478-2.38,4.5-6.02,7.5Z"
+                  transform="translate(-1098 -4087.997)"
+                  fill="#e93656"
+                />
+              </svg>
+            </div>
+            <div class="section5-text">
+              <p>9 MONTHS AGO</p>
+              <p>Icons</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Section 6 -->
+    <section class="section6">
+      <h3 class="beginning-h3">NEWS & EVENT</h3>
+      <h2 class="beginning-h2">Latest Articles</h2>
+      <div class="section6-row">
+        <div class="section6-template section6-text">
+          <div class="section6-svg">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="95"
+              height="95"
+              viewBox="0 0 95 95"
+            >
+              <g id="Icon" transform="translate(-177 -5096)">
+                <circle
+                  id="Ellipse_3"
+                  data-name="Ellipse 3"
+                  cx="47.5"
+                  cy="47.5"
+                  r="47.5"
+                  transform="translate(177 5096)"
+                  fill="#fff"
+                />
+                <path
+                  id="Forma_1"
+                  data-name="Forma 1"
+                  d="M238.879,5145.81l-13.823-18.519a.662.662,0,0,0-.555-.295h0a.547.547,0,0,0-.075,0l-.025,0a.346.346,0,0,0-.045.007l-.032.009-.034.009-.037.013-.022.01a.65.65,0,0,0-.266.207l-13.847,18.55a.607.607,0,0,0-.1.521.633.633,0,0,0,.35.41,13,13,0,0,1,3.406,2.54,11.382,11.382,0,0,1,3.338,7.558H215.2a.643.643,0,0,0-.655.628v2.9a.642.642,0,0,0,.655.627h18.6a.642.642,0,0,0,.655-.627v-2.9a.642.642,0,0,0-.655-.628h-1.915a11.383,11.383,0,0,1,3.339-7.558,13.034,13.034,0,0,1,3.405-2.54.63.63,0,0,0,.351-.409A.6.6,0,0,0,238.879,5145.81Zm-16.632.365a2.169,2.169,0,0,1,2.252-2.063,2.34,2.34,0,0,1,1.6.612,1.963,1.963,0,0,1,.651,1.45,2.167,2.167,0,0,1-2.252,2.063v0A2.165,2.165,0,0,1,222.247,5146.175Zm10.9,13.566H215.852v-1.648h17.294Zm1.157-11.354a12.8,12.8,0,0,0-3.729,8.45H218.423a12.8,12.8,0,0,0-3.729-8.45,14.912,14.912,0,0,0-3.085-2.418l12.235-16.391,0,13.336a3.4,3.4,0,0,0-2.905,3.26,3.448,3.448,0,0,0,3.561,3.316h0a3.45,3.45,0,0,0,3.562-3.317,3.183,3.183,0,0,0-1.051-2.354,3.623,3.623,0,0,0-1.858-.908l0-13.33,12.232,16.386A14.917,14.917,0,0,0,234.3,5148.388Z"
+                  fill="#daae19"
+                />
+              </g>
+            </svg>
+          </div>
+          <div>
+            <p>IN FREELANCING COMPANY</p>
+            <p>Graphic Designer</p>
+            <p>
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est dolor sit amet, consectetur
+              adipisicing elit sed do eiusmod tempor incididunt ut labore
+              Claritas est etiam processus dynamicus, qui sequitur mutationem
+              consuetudium lectorum.
+            </p>
+            <p>READ MORE</p>
+          </div>
+        </div>
+        <div class="section6-template section6-year">
+          <p>2011 - 2012</p>
+        </div>
+        <div class="section6-template section6-image">
+          <img src="Assets/Images/article1.avif" alt="Article 1" />
+        </div>
+      </div>
+      <div class="section6-row">
+        <div class="section6-template section6-image">
+          <img src="Assets/Images/article2.avif" alt="Article 2" />
+        </div>
+        <div class="section6-template section6-year">
+          <p class="section6-africa">2013 - 2014</p>
+        </div>
+        <div class="section6-template section6-text">
+          <div class="section6-svg">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="95"
+              height="95"
+              viewBox="0 0 95 95"
+            >
+              <g id="Icon" transform="translate(-1197 -5707)">
+                <circle
+                  id="Ellipse_3"
+                  data-name="Ellipse 3"
+                  cx="47.5"
+                  cy="47.5"
+                  r="47.5"
+                  transform="translate(1197 5707)"
+                  fill="#e93656"
+                />
+                <path
+                  id="Forma_1"
+                  data-name="Forma 1"
+                  d="M1245.058,5769.578a2.424,2.424,0,0,1,1.861-2.355v-8.393h-3.165a.559.559,0,0,1,0-1.117h3.724a.558.558,0,0,1,.558.559v8.951a2.421,2.421,0,1,1-2.978,2.355Zm1.117,0a1.3,1.3,0,1,0,1.3-1.3A1.305,1.305,0,0,0,1246.175,5769.578Zm-7.075,0a2.426,2.426,0,0,1,1.863-2.355v-8.393H1237.8a.559.559,0,1,1,0-1.117h3.723a.559.559,0,0,1,.559.559v8.951a2.421,2.421,0,1,1-2.98,2.355Zm1.118,0a1.3,1.3,0,1,0,1.3-1.3A1.3,1.3,0,0,0,1240.219,5769.578Zm14.958-3.167h-1.741a.556.556,0,0,1-.558-.558v-7.024h-3.165a.559.559,0,1,1,0-1.117h3.723a.559.559,0,0,1,.559.559v7.024h1.182a2.42,2.42,0,1,1,0,1.115Zm1.052-.558a1.3,1.3,0,1,0,1.3-1.3A1.306,1.306,0,0,0,1256.228,5765.854Zm-27.181,0a2.421,2.421,0,0,1,4.776-.558h1.182v-6.466h-1.3a6.708,6.708,0,0,1-1.689-13.2,4.837,4.837,0,0,1,4.717-3.805,4.786,4.786,0,0,1,1.447.221,10.574,10.574,0,0,1,19.576,5,6.026,6.026,0,0,1-1.785,11.782h-.3a.559.559,0,1,1,0-1.117h.3a4.908,4.908,0,0,0,1.111-9.689.556.556,0,0,1-.432-.539,9.457,9.457,0,0,0-17.736-4.48.558.558,0,0,1-.71.242,3.712,3.712,0,0,0-5.148,2.919.557.557,0,0,1-.445.475,5.59,5.59,0,0,0,1.094,11.073h1.857a.558.558,0,0,1,.558.559v7.582a.556.556,0,0,1-.558.558h-1.741a2.421,2.421,0,0,1-4.776-.558Zm1.118,0a1.3,1.3,0,1,0,1.3-1.3A1.3,1.3,0,0,0,1230.165,5765.854Zm24.067-17.789a.558.558,0,0,1-.558-.555,6.387,6.387,0,0,0-.44-2.279.558.558,0,0,1,1.04-.407,7.507,7.507,0,0,1,.517,2.675.56.56,0,0,1-.553.565Zm-2.041-4.606a6.462,6.462,0,0,0-4.993-2.364.559.559,0,0,1,0-1.118,7.574,7.574,0,0,1,5.854,2.771.558.558,0,1,1-.86.711Z"
+                  fill="#fff"
+                />
+              </g>
+            </svg>
+          </div>
+          <div>
+            <p>IN FREELANCING COMPANY</p>
+            <p>Application Design</p>
+            <p>
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est dolor sit amet, consectetur
+              adipisicing elit sed do eiusmod tempor incididunt ut labore
+              Claritas est etiam processus dynamicus, qui sequitur mutationem
+              consuetudium lectorum.
+            </p>
+            <p>READ MORE</p>
+          </div>
+        </div>
+      </div>
+      <div class="section6-row">
+        <div class="section6-template section6-text">
+          <div class="section6-svg">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="95"
+              height="95"
+              viewBox="0 0 95 95"
+            >
+              <g id="Icon" transform="translate(-233 -6277)">
+                <circle
+                  id="Ellipse_3"
+                  data-name="Ellipse 3"
+                  cx="47.5"
+                  cy="47.5"
+                  r="47.5"
+                  transform="translate(233 6277)"
+                  fill="#fff"
+                />
+                <path
+                  id="Forma_1"
+                  data-name="Forma 1"
+                  d="M280.491,6345a.669.669,0,0,1-.67-.67v-5.059a.669.669,0,0,1,.67-.67h.01a.67.67,0,0,1,.67.67v5.059a.67.67,0,0,1-.67.67Zm10.468-3.763-3.061-4.112a.648.648,0,0,1,.15-.92.688.688,0,0,1,.944.146l3.061,4.11a.649.649,0,0,1-.15.922.687.687,0,0,1-.944-.146Zm-21.863.146a.652.652,0,0,1-.15-.922l3.062-4.11a.688.688,0,0,1,.944-.146.65.65,0,0,1,.15.92l-3.062,4.112a.683.683,0,0,1-.548.272A.692.692,0,0,1,269.1,6341.384Zm-.086-15.312a11.193,11.193,0,0,1,5.484-9.558l.576-3.935a2.82,2.82,0,0,1,2.726-2.308H283.2a2.817,2.817,0,0,1,2.726,2.309l.576,3.933a11.189,11.189,0,0,1,5.484,9.558,11.493,11.493,0,0,1-22.98,0Zm7.4-13.306-.621,4.247a.662.662,0,0,1-.333.478,9.886,9.886,0,0,0-5.092,8.581,10.141,10.141,0,0,0,20.276,0,9.883,9.883,0,0,0-5.092-8.581.656.656,0,0,1-.331-.478l-.623-4.247a1.452,1.452,0,0,0-1.389-1.174H277.8A1.454,1.454,0,0,0,276.408,6312.766Zm21.691,19.577-4.952-1.569a.658.658,0,0,1-.435-.831.682.682,0,0,1,.852-.425l4.954,1.572a.656.656,0,0,1,.433.832.675.675,0,0,1-.642.455A.7.7,0,0,1,298.1,6332.342Zm-36.052-.422a.658.658,0,0,1,.435-.832l4.954-1.572a.68.68,0,0,1,.85.425.656.656,0,0,1-.433.831l-4.954,1.569a.689.689,0,0,1-.209.033A.678.678,0,0,1,262.048,6331.92Zm21.7-7.421-1.389-1.312-1.39,1.312a.685.685,0,0,1-.94,0l-1.39-1.312-1.39,1.312a.687.687,0,0,1-.777.115.656.656,0,0,1-.361-.682l1.53-10.456a.674.674,0,0,1,.766-.561.663.663,0,0,1,.573.746l-1.252,8.549.441-.417a.688.688,0,0,1,.94,0l1.39,1.313,1.39-1.313a.688.688,0,0,1,.94,0l.441.417-1.242-8.478a.663.663,0,0,1,.575-.747.674.674,0,0,1,.764.561l1.521,10.387a.659.659,0,0,1-.361.68.707.707,0,0,1-.307.073A.686.686,0,0,1,283.749,6324.5Zm8.964-2.3a.655.655,0,0,1,.435-.83l4.952-1.57a.679.679,0,0,1,.852.422.655.655,0,0,1-.433.832l-4.954,1.57a.683.683,0,0,1-.209.034A.674.674,0,0,1,292.712,6322.2Zm-25.276.423-4.954-1.57a.657.657,0,0,1-.435-.832.68.68,0,0,1,.852-.422l4.954,1.57a.653.653,0,0,1,.433.83.676.676,0,0,1-.85.423Zm9.331-13.667a.66.66,0,1,1,0-1.32h7.464a.66.66,0,1,1,0,1.32Zm0-2.638a.659.659,0,1,1,0-1.317h7.464a.659.659,0,1,1,0,1.317Z"
+                  fill="#e93656"
+                />
+              </g>
+            </svg>
+          </div>
+          <div>
+            <p>IN FREELANCING COMPANY</p>
+            <p>Personal Adviser</p>
+            <p>
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est dolor sit amet, consectetur
+              adipisicing elit sed do eiusmod tempor incididunt ut labore
+              Claritas est etiam processus dynamicus, qui sequitur mutationem
+              consuetudium lectorum.
+            </p>
+            <p>READ MORE</p>
+          </div>
+        </div>
+        <div class="section6-template section6-year">
+          <p class="section6-africa">2015 - 2016</p>
+        </div>
+        <div class="section6-template section6-image">
+          <img src="Assets/Images/article3.avif" alt="Article 3" />
+        </div>
+      </div>
+    </section>
 
     <script src="Scripts/section1Counter.js"></script>
     <script src="Scripts/section2NumberAndWidth.js"></script>
     <script src="Scripts/section4Slider.js"></script>
+    <script src="Scripts/Section5Collage.js"></script>
   </body>
 </html>

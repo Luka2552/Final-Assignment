@@ -9,7 +9,13 @@ Setting up Fonts
   font-style: normal;
   font-display: swap;
 }
-
+@font-face {
+  font-family: 'Jaapokki Regular';
+  src: url('../Assets/fonts/Jaapokki-Regular.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
 @font-face {
   font-family: 'Poppins ExtraBold';
   src: url('../Assets/fonts/Poppins-ExtraBold.woff2') format('woff2');
