@@ -3,6 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Final Assignment for the Front End Course"
+    />
+    <meta property="og:title" content="Final Assignment" />
+    <meta property="og:image" content="https://i.imgur.com/pHwowoi.jpg" />
+    <meta
+      property="og:description"
+      content="Final Assignment for the Front End Course"
+    />
+    <meta property="og:url" content="https://imgur.com/pHwowoi" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Final Assignment" />
+    <meta
+      name="twitter:description"
+      content="Final Assignment for the Front End Course"
+    />
+    <meta name="twitter:image" content="https://i.imgur.com/pHwowoi.jpg" />
+    <meta property="og:type" content="instagram:photo" />
+    <meta property="og:image" content="https://i.imgur.com/pHwowoi.jpg" />
+    <meta property="og:image" content="https://i.imgur.com/pHwowoi.jpg" />
+    <meta
+      property="og:description"
+      content="Final Assignment for the Front End Course"
+    />
+    <meta property="og:url" content="https://imgur.com/pHwowoi" />
     <link
       rel="preload"
       href="Assets/fonts/GlacialIndifference-Bold.woff2"
@@ -87,9 +115,8 @@
       type="font/woff2"
       crossorigin
     />
-
     <link rel="stylesheet" href="Styles/style.css" />
-    <link rel="stylesheet" href="Styles/section8.css" />
+    <link rel="stylesheet" href="Styles/section2.css" />
     <title>Final Assignment</title>
   </head>
   <body>
@@ -115,7 +142,7 @@
         </div>
 
         <div class="about-me">
-          <p>Hello, my name is</p>
+          <p class="section1-name">Hello, my name is</p>
           <p>Luka Londaridze</p>
           <p>& I am a Junior Full-Stack Developer</p>
           <div class="social-icons">
@@ -1082,17 +1109,27 @@
       <div>
         <div>
           <img src="Assets/Images/map.jpg" alt="Map Image" />
-          <div class="contact-us">
+          <div class="section8-contact-us">
             <h2>CONTACT US</h2>
             <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
             <form id="contactForm">
-              <input type="text" class="filter" id="name" required />
+              <input type="text" class="section8-filter" id="name" required />
               <span class="placeholder1">Your Name</span>
-              <input type="email" class="filter" id="email" required />
+              <input type="email" class="section8-filter" id="email" required />
               <span class="placeholder2">Email Address</span>
-              <input type="text" class="filter" id="website" required />
+              <input
+                type="text"
+                class="section8-filter"
+                id="website"
+                required
+              />
               <span class="placeholder3">Your Website</span>
-              <input type="text" class="filter" id="message" required />
+              <input
+                type="text"
+                class="section8-filter"
+                id="message"
+                required
+              />
               <span class="placeholder4">Message</span>
               <div class="section8-button">
                 <button type="button" onclick="section8Form()">
@@ -1235,10 +1272,10 @@
           </a>
         </div>
       </div>
-      <div class="overlay" id="overlay"></div>
-      <div class="custom-modal" id="customModal">
+      <div class="section8-overlay" id="overlay"></div>
+      <div class="section8-custom-modal" id="customModal">
         <div id="modalContent"></div>
-        <button class="alert-close" onclick="closeAlert()">
+        <button class="section8-alert-close" onclick="closeAlert()">
           უკან დაბრუნება
         </button>
       </div>

@@ -13,7 +13,7 @@
   width: 100%;
 }
 
-.contact-us {
+.section8-contact-us {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -23,12 +23,12 @@
   width: 46%;
 }
 
-.contact-us h2,
-.contact-us h3 {
+.section8-contact-us h2,
+.section8-contact-us h3 {
   text-align: center;
 }
 
-.contact-us h2 {
+.section8-contact-us h2 {
   font-family: 'Jaapokki Regular';
   color: #ffffff;
   letter-spacing: 1.35px;
@@ -36,7 +36,7 @@
   line-height: 2rem;
 }
 
-.contact-us h3 {
+.section8-contact-us h3 {
   font-family: 'Roboto Light';
   letter-spacing: 0.51px;
   color: #eeeeee;
@@ -44,13 +44,13 @@
   margin-bottom: 3rem;
 }
 
-.contact-us input {
+.section8-contact-us input {
   width: calc(50% - 10px);
   margin-bottom: 10px;
   display: inline-block;
 }
 
-.contact-us input:last-child {
+.section8-contact-us input:last-child {
   width: 100%;
 }
 
@@ -74,19 +74,19 @@
   padding: 20px;
 }
 
-.contact-us input {
+.section8-contact-us input {
   width: calc(31.1%);
   margin-right: 10px;
   height: 2.5rem;
 }
 
-.contact-us input:nth-child(7) {
+.section8-contact-us input:nth-child(7) {
   width: calc(98.1%);
   margin-right: 0;
   height: 6rem;
 }
 
-.filter {
+.section8-filter {
   position: relative;
   outline: none;
   padding: 5px;
@@ -136,11 +136,11 @@
   color: #daaf1b;
 }
 
-.filter:focus + span {
+.section8-filter:focus + span {
   display: none;
 }
 
-.contact-us button {
+.section8-contact-us button {
   font-size: 0.8rem;
   letter-spacing: 0.96px;
   color: #e93656;
@@ -220,7 +220,7 @@
   color: #ffffff;
 }
 
-.custom-modal {
+.section8-custom-modal {
   display: none;
   position: fixed;
   top: 50%;
@@ -232,7 +232,7 @@
   z-index: 1000;
 }
 
-.overlay {
+.section8-overlay {
   display: none;
   position: fixed;
   top: 0;
@@ -243,10 +243,11 @@
   z-index: 2;
 }
 
-.alert-close {
+.section8-alert-close {
   background-color: #e93656;
   margin-top: 2rem;
   cursor: pointer;
   border: 0;
   padding: 0.5rem 2rem;
+  color: #ffffff;
 }

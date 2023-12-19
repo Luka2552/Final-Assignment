@@ -8,7 +8,7 @@ window.onload = function () {
   });
 };
 
-const inputElements = document.querySelectorAll('.filter');
+const inputElements = document.querySelectorAll('.section8-filter');
 
 inputElements.forEach(function (inputElement) {
   inputElement.addEventListener('input', function () {
