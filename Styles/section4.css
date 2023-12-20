@@ -94,3 +94,24 @@
 .section4-square.selected {
   background: #e93656;
 }
+
+@media screen and (max-width: 1024px) {
+  .section4 {
+    height: 100%;
+  }
+  .section4-flex-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .section4-text-container {
+    width: 80%;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .section4-svg-container2 {
+    margin-right: 0;
+  }
+  .section4-square-container {
+    align-items: center;
+  }
+}

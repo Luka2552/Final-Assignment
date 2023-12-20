@@ -28,7 +28,6 @@
   justify-content: center;
   align-items: center;
 }
-
 .section3-card:hover {
   background: #15263e 0% 0% no-repeat padding-box;
   opacity: 0.98;
@@ -75,4 +74,36 @@
 
 .section3-card:hover .section3-additional-text {
   display: block;
+}
+
+@media screen and (max-width: 1024px) {
+  .section3-row {
+    flex-wrap: wrap;
+  }
+  .section3-card {
+    flex: 0 0 calc(100% / 3); /* Show 3 cards */
+    max-width: calc(100% / 3);
+    height: auto;
+  }
+
+  .section3-card svg {
+    width: 80px;
+    height: 80px;
+  }
+
+  .section3-card p {
+    font-size: 1.2rem;
+  }
+
+  .section3-card .section3-additional-text {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section3-card {
+    flex: 0 0 calc(100% / 2); /* Show 2 cards */
+    max-width: calc(100% / 2);
+    height: auto;
+  }
 }

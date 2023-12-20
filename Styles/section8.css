@@ -75,13 +75,13 @@
 }
 
 .section8-contact-us input {
-  width: calc(31.1%);
+  width: calc(30.1%);
   margin-right: 10px;
   height: 2.5rem;
 }
 
 .section8-contact-us input:nth-child(7) {
-  width: calc(98.1%);
+  width: calc(97%);
   margin-right: 0;
   height: 6rem;
 }
