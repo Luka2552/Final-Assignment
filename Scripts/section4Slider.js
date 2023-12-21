@@ -1,9 +1,4 @@
-const slides = [
-  {
-    text: "1 - Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore..',",
-    profession: 'Data Anaylist',
-    name: 'Omar West',
-    svgContent: `
+const slides=[{text:"1 - Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore..',",profession:"Data Anaylist",name:"Omar West",svgContent:`
       <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 132 132">
       <defs>
         <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 160 160">
@@ -13,13 +8,7 @@ const slides = [
       <rect id="Rectangle_68" data-name="Rectangle 68" width="132" height="132" rx="66" fill="url(#pattern)"/>
     </svg>
     
-      `,
-  },
-  {
-    text: "2 - Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore..',",
-    profession: 'Graphic Designer',
-    name: 'Mau Thomas',
-    svgContent: `
+      `},{text:"2 - Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore..',",profession:"Graphic Designer",name:"Mau Thomas",svgContent:`
       <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 132 132">
       <defs>
         <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 160 160">
@@ -29,13 +18,7 @@ const slides = [
       <rect id="Rectangle_67" data-name="Rectangle 67" width="132" height="132" rx="66" fill="url(#pattern)"/>
     </svg>
     
-      `,
-  },
-  {
-    text: "3 - Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore..',",
-    profession: 'Designer',
-    name: 'Jane Doe',
-    svgContent: `
+      `},{text:"3 - Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore..',",profession:"Designer",name:"Jane Doe",svgContent:`
       <svg
       xmlns="http://www.w3.org/2000/svg"
       xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -65,36 +48,4 @@ const slides = [
         fill="url(#pattern)"
       />
     </svg>
-      `,
-  },
-];
-
-let currentSlide = 0;
-
-function changeSlide(index) {
-  const squares = document.querySelectorAll('.section4-square');
-  squares.forEach((square) => square.classList.remove('selected'));
-
-  currentSlide = index - 1;
-  updateContent();
-
-  document
-    .querySelector('.section4-square-container')
-    .children[currentSlide].classList.add('selected');
-}
-
-function updateContent() {
-  const textContainer = document.querySelector('.section4-text-container');
-  const professionText = document.querySelector(
-    '.section4-text .section4-profession'
-  );
-  const nameText = document.querySelector('.section4-text .section4-name');
-  const svgContainer = document.querySelector('.section4-svg-container1');
-
-  textContainer.textContent = slides[currentSlide].text;
-  professionText.textContent = slides[currentSlide].profession;
-  nameText.textContent = slides[currentSlide].name;
-  svgContainer.innerHTML = slides[currentSlide].svgContent;
-}
-
-changeSlide(1);
+      `},];let currentSlide=0;function changeSlide(A){let t=document.querySelectorAll(".section4-square");t.forEach(A=>A.classList.remove("selected")),currentSlide=A-1,updateContent(),document.querySelector(".section4-square-container").children[currentSlide].classList.add("selected")}function updateContent(){let A=document.querySelector(".section4-text-container"),t=document.querySelector(".section4-text .section4-profession"),n=document.querySelector(".section4-text .section4-name"),e=document.querySelector(".section4-svg-container1");A.textContent=slides[currentSlide].text,t.textContent=slides[currentSlide].profession,n.textContent=slides[currentSlide].name,e.innerHTML=slides[currentSlide].svgContent}changeSlide(1);
